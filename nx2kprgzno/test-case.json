@@ -1,0 +1,240 @@
+{
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "New descriptive group",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "open",
+        "object" : {
+          "type" : "raw",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "http://localhost/healthone/sd21-proj-p7-healthone-t3l-Husow070-main/index.php",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "//*[@id=\"navbarText\"]/ul[2]/li/a",
+          "pageScannerQuery" : "hidden=false",
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyURL",
+        "object" : {
+          "type" : "raw",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "http://localhost/healthone/sd21-proj-p7-healthone-t3l-Husow070-main/inloggen.php",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "New descriptive group",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "open",
+        "object" : {
+          "type" : "raw",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "http://localhost/healthone/sd21-proj-p7-healthone-t3l-Husow070-main/inloggen.php",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "//*[@id=\"inputEmail4\"]",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "test@email.nl",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "//*[@id=\"inputPassword4\"]",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "test",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "/html/body/div/form/button",
+          "pageScannerQuery" : "basic=clickable?hidden=false",
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyURL",
+        "object" : {
+          "type" : "raw",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "http://localhost/healthone/sd21-proj-p7-healthone-t3l-Husow070-main/inloggen.php",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "navigatie",
+  "description" : null,
+  "id" : "nx2kprgzno",
+  "dataDrivenStorageId" : null,
+  "tags" : [ ],
+  "metaData" : {
+    "lastModifiedDateTime" : "2022-10-05T10:27:24.167",
+    "creationDateTime" : "2022-10-05T09:03:07.742",
+    "lastSuccessfulRunDateTime" : null
+  }
+}
